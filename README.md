@@ -1,6 +1,11 @@
 # Jawaban soal Ujian Akhir Semester Fisika Komputasi <br /><br />
 # Anggota kelompok : 
-- 
+- Paulina Bertha / 10217009
+- Maria Artha / 10217028
+- Sekar Tanjung / 10217081
+- Mutia Dyah L / 10217085
+- Iis Rohmatin / 10217099
+- Fajar Ridwan Sidik / 10217102
 
 ## NOMOR 1 : <br /><br />
 ### a. 
@@ -348,8 +353,7 @@
     }
     <br /><br />
 ## NOMOR 3 : <br /><br />
-# a.
-    
+# a.   
 # b.
 # c.
 # d. 
@@ -483,6 +487,8 @@
     }
     <br />
 ## NOMOR 5 : <br /><br />
+
+
     
 
 
