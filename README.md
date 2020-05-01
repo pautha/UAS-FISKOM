@@ -353,11 +353,17 @@
     }
     <br /><br />
 ## NOMOR 3 : <br /><br />
+Langkah-langkah untuk menentukan notasi arsitektur JST untuk tiap tabel pada soal a, b, dan c adalah sama.  Ketiga data yang terdiri dari x,y sebagai input dan nilai kelas (1,0) sebagai output dimasukan dalam program JST di matlab. Untuk melengkapi program dibutuhkan besaran dengan nilai berikut: <br />
+Nilai threshold (b) = 0 <br />
+Bobot (w) = 0 <br />
+Learning rate ($\eta$) = 0 <br />
+Dengan begitu didapatkan notasi arsitektur JST (input-hidden layer-output) untuk tiga data seperti berikut:
 # a.   
+    Notasinya adalah : 
 # b.
 # c.
 # d. 
-<br />
+    <br /><br />    
 ## NOMOR 4 : <br /><br />
 # a dan b 
     Suatu fungsi yang dapat mengekstrak informasi dari masing-masing kromosom, bahwa tiga digit pertama adalah posisi x, tiga digit kedua adalah posisi y, dan satu digit terakhir adalah kelasnya (0 atau 1) adalah sebagai berikut
@@ -487,9 +493,26 @@
     }
     <br />
 ## NOMOR 5 : <br /><br />
+    Konsep fisika komputasi seperti Artificial Neural Network (ANN) dapat digunakan untuk mengontrol kesehatan mental masyarakat guna meningkatkan kesadaran akan pentingnya menjaga kesehatan mental. Sehingga diharapkan diagnosis dini dapat memberikan penanganan yang sesuai kepada masyarakat yang mengalami kesehatan mental yang buruk seperti depresi. Hal ini terjadi karena masalah kesehatan mental tidak hanya diakibatkan kurangnya fasilitas. Kuatnya stigma buruk masyarakat terhadap depresi dan gangguan kejiwaan lainnya turut menjadi penghalang besar penderita mendapat penanganan dan kontrol. Penderita kerap mengabaikan gejala depresi dan kelainan yang dihadapinya sampai berlarut-larut karena malu dan tidak ingin disebut sebagai orang gila. Akibatnya, penanganan dini gagal dilakukan dan gejala yang dialami berubah menjadi kronis.
+    1.	Tujuan 
+        Untuk mendeteksi kesehatan mental masyarakat menggunakan aplikasi sosial media berbasis Artificial Neural Network (ANN) 
 
+    2.	Rumusan masalah 
+        Bagaimana metode aplikasi sosial media berbasis Artificial Neural Network (ANN) dapat mendeteksi kesehatan mental masyarat?
 
-    
+    3.	Metode 
+        Metode diagnosis depresi yang digunakan ada 2, yaitu 
+        a.	Facial Test Recognition. 
+            Metode ini memanfaatkan algoritma SVM (Support Vector Machine) berdasarkan data training yang tersedia demi mendapatkan tingkat depresi seseorang dari potret wajahnya. Metode facial image recognition bekerja berdasarkan pendetekesian emosi dari gambar wajah seseorang. Sistem ini dilatih dengan mendeteksi fitur wajah dari emosi negatif dan positif dari banyak data citra ekspresi. Pada akhirnya, sistem yang terlatih akan mampu mengidentifikasi tingkat depresi seseorang berdasarkan parameter paling dominan yang menunjukkan emosi buruk.
+        b.	Deep Learning Neural Network
+            Metode ini memanfaatkan deep learning neural network untuk menganalisa diksi dan timing posting seseorang untuk dicari kondisi mentalnya. Metode ini bekerja dengan melakukan analisis unggahan pengguna. Katakata pengguna yang mengandung ekspresi rasa depresi seperti “#sedih”, “#bosanhidup”, atau “#depresi” akan dideteksi. Komputer akan belajar mengenali pola-pola depresi  melalui tulisan dan foto dengan deep learning neural network. Metode pembelajaran mesin yang digunakan adalah supervised learning. Komputer diberi tulisan-tulisan dan gambar-gambar dari data training yang telah diklasifikasikan depresi dan tidaknya. Data tersebut kemudian dikembangkan untuk mencari korelasi antara suatu kosakata terhadap tes uji yaitu depresi dan cost functionnya sebagai bobot pengaruh. Cost function yang diperoleh kemudian akan dievaluasi dengan metode gradient descent sehingga diperoleh hubungan yang tepat antara input data dengan hasil prediksi.
 
+    4.	Hasil dan Analisis 
+    SVM merupakan suatu teknik untuk menemukan hyperplane yang bisa memisahkan dua set data dari dua kelas yang berbeda. SVM classifier mengklasifikasikan data uji dan memberikan kelas prediksi. SVM memanfaatkan data training untuk memisahkan pengguna berdasarkan tingkat depresinya. Semakin lama, akurasi akan terus meningkat seiring jumlah data training meningkat. Metode deep learning neural network memungkinan proses analisis terhadap perilaku pengguna aplikasi sosial media secara online setiap harinya dengan otomatis tanpa memerlukan partisipasi aktif pengguna. Dengan metode ini, kecenderungan pengguna akan depresi dapat dideteksi sedini mungkin. 
+    Sistem prediksi bertujuan untuk memperkirakan kondisi mental seseorang di masa depan. Prediksi berguna sehingga pengguna bisa menyiapkan diri terhadap siklus kesehatan mentalnya. Kondisi mental buruk dapat ditangani secara pribadi, dibantu orang terdekat, dan dengan bantuan ahli. 
 
-
+    Referensi :
+    [1] Ang Li, et al., “Detecting depression stigma on social media ; A Linguistic Analysis”; Journal of Affeective Disorders; Volume 232
+    [2] Girard, Jeffrey M. et al. (2013), Social risk and depression : Evidence from manual and automatic facial recognition analysis. IEEE International Conferencence and Workshop
+    [3] Girard, Jeffrey M. et al. (2013), Social risk and depression : Evidence from manual and automatic facial recognition analysis. IEEE International Conferencence and Workshop
+    [4] Prameswara, Namboodiri S. et al., (2019).  A computer vision based image processomg system for depression detection among students for counseling. Indonesian Journal of Electrical Engineering and Computer Science.
