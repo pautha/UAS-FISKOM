@@ -1,4 +1,5 @@
 Jawaban soal Ujian Akhir Semester Fisika Komputasi <br /><br />
+NOMOR 1 : <br /><br />
 a. Saat di titik kesetimbangan, gaya sentri petalnya adalah 
  
 \begin{equation}
@@ -244,14 +245,14 @@ diketahui pula bahwa nilai gaya tegangan tali adalah
 T_x = - T sin \theta
 \end{equation}
 \begin{equation}
-T_y = - T cos \theta
+T_y = T cos \theta
 \end{equation}
 dengan $F=mg$ maka
 \begin{equation}
 -T sin \theta - mr (\ddot\theta cos \theta - \dot\theta^2 sin \theta) = 0
 \end{equation}
 \begin{equation}
--T cos \theta + mr (\ddot\theta sin \theta + \dot\theta^2 cos \theta)+mg = 0
+T cos \theta + mr (\ddot\theta sin \theta + \dot\theta^2 cos \theta)+mg = 0
 \end{equation}
 setelah diselesaikan kedua persamaan didapat, maka diperoleh
 \begin{equation}
