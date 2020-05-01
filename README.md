@@ -277,7 +277,7 @@
 
 ### c. 
     Solusi numerik dengan algoritma Euler untuk sembarang nilai adalah berupa plot yang dapat dilihat pada link berikut : https://plotly.com/~pautha/1/
-<br /><br />
+<br />
 ### d. 
     Program sederhana dengan menggunakan C++ untuk menghasilkan angka-angka untuk sudut kecil dan sudut besar adalah <br />
    
@@ -349,9 +349,141 @@
     <br /><br />
 ## NOMOR 3 : <br /><br />
 # a.
+    
 # b.
 # c.
 # d. 
+<br />
+## NOMOR 4 : <br /><br />
+# a dan b 
+    Suatu fungsi yang dapat mengekstrak informasi dari masing-masing kromosom, bahwa tiga digit pertama adalah posisi x, tiga digit kedua adalah posisi y, dan satu digit terakhir adalah kelasnya (0 atau 1) adalah sebagai berikut
+    /* ga.js
+    Simple genetic algoritm (GA)
+ 
+    Sparisoma Viridi | https://github.com/dudung/jsxPhys
+ 
+    20200501
+    1255 Create this program.
+    1318 Cancel the use of online compiler [1].
+ 
+    Refrences
+    1. https://jsconsole.com/ [20200501]
+    */
+
+    // Execute main funtion
+    main();
+
+
+    // Define main function
+    function main() {
+     var p1 = "0010110";
+    var p2 = "1111111";
+ 
+    var p3 = "1110001";
+ 
+     var n = 4;
+     [c1, c2] = crossover(p1, p2, n);
+ 
+     console.log("soal A");
+    [x, y, c] = getValues(c1);
+    console.log(c1);
+    console.log(x);
+    console.log(y);
+    console.log(c);
+    [x, y, c] = getValues(c2);
+    console.log(c2);
+    console.log(x);
+    console.log(y);
+    console.log(c);
+ 
+    console.log("soal C");
+    val = fitness(c1);
+    console.log(val);
+ 
+    val = fitness(c2);
+    console.log(val);
+ 
+    console.log("soal D");
+    var arrayP = ["0010110","1111111","1110001"];
+    var i,j;
+    var f = 0;
+    var C =0;
+    for ( i = 0 ; i < arrayP.length-1 ; i++){
+    for(j = i ; j < arrayP.length ; j++){
+    console.log("P1 = "+arrayP[i]);
+    console.log("P2 = "+arrayP[j]);
+    [c1, c2] = crossover(arrayP[i], arrayP[j], n);
+     console.log("C1 = "+c1);
+    val = fitness(c1);
+    console.log("Fitness C1 = "+val);
+    if (f < val){
+        f = val;
+        C = c1;
+     }
+    console.log("C2 = "+c2);
+    val = fitness(c2);
+    console.log("Fitness C2 = "+val);
+    if (f < val){
+     f = val;
+     C = c2;
+    }
+   
+    }
+     }
+    console.log("Higest fitness = "+f);
+    console.log("Higest C = "+C);
+    }
+
+
+    // Crossover two chromosome
+    function crossover() {
+    var p1 = arguments[0];
+    var p2 = arguments[1];
+    var n = arguments[2];
+ 
+    var c1 = p1.slice(0, n) + p2.slice(n);
+    var c2 = p1.slice(n) + p2.slice(0, n);
+ 
+    return [c1, c2];
+    }
+
+
+    // Get interpretation of position and class from chromosome
+    function getValues() {
+    var p = arguments[0];
+ 
+    var xs = p.slice(0, 3);
+    var ys = p.slice(3, 6);
+    var cs = p.slice(6);
+ 
+    var x = -1;
+    var y = -1;
+    var c = -1;
+ 
+     x = xs;
+     y = ys;
+    c = cs;
+ 
+    return [x, y, c];
+    }
+
+    // Create fitness function 
+    // Soal B
+    function fitness() {
+     var p = arguments[0];
+ 
+     var x, y, g;
+     [x, y, g] = getValues(p);
+     var x_0 = 0; //diasumsikan
+     var y_0 = 0; //diasumsikan
+    var dr = Math.sqrt(Math.pow((x-x_0),2)+Math.pow((y-y_0),2)); 
+ 
+    var val = 1 / (1 + dr);
+     return val;
+    }
+    <br />
+## NOMOR 5 : <br /><br />
+    
 
 
 
