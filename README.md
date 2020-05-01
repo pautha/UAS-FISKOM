@@ -365,7 +365,7 @@ Dengan begitu didapatkan notasi arsitektur JST (input-hidden layer-output) untuk
 # c.
     Notasinya adalah : 2-2-2-2-1
 # d. 
-    Pemisahan untuk data 1 diperluka untuk memisahkan data terkumpul pada bagian yang sama sehingga diperlukan dua layer untuk tampilan nilai keseluruhan positif di pojok grafik. Pada data 2 akan dilakukan pemisahan data dekat titik 0,0 dengan seluruh data menumpuk dibagian pojok kiri bawah, karena itu dilakukan notasi seperti soal b. Sedangkan pada soal c, dilakukan dengan membuat data terkumpul seperti soal a. Bedanya sebaran data lebih acak. Diperlukan notasi yang sederhana agar proses pengolahan data tidak bertumbukan dengan neuron-neuron yang berhubungan.
+Pemisahan untuk data 1 diperluka untuk memisahkan data terkumpul pada bagian yang sama sehingga diperlukan dua layer untuk tampilan nilai keseluruhan positif di pojok grafik. Pada data 2 akan dilakukan pemisahan data dekat titik 0,0 dengan seluruh data menumpuk dibagian pojok kiri bawah, karena itu dilakukan notasi seperti soal b. Sedangkan pada soal c, dilakukan dengan membuat data terkumpul seperti soal a. Bedanya sebaran data lebih acak. Diperlukan notasi yang sederhana agar proses pengolahan data tidak bertumbukan dengan neuron-neuron yang berhubungan.
     <br />   
 ## NOMOR 4 : <br /><br />
 # a dan b 
