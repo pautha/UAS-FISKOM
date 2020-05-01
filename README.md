@@ -359,11 +359,14 @@ Bobot (w) = 0 <br />
 Learning rate ($\eta$) = 0 <br />
 Dengan begitu didapatkan notasi arsitektur JST (input-hidden layer-output) untuk tiga data seperti berikut:
 # a.   
-    Notasinya adalah : 
+    Notasinya adalah : 2-2-1
 # b.
+    Notasinya adalah : 2-3-1-1
 # c.
+    Notasinya adalah : 2-2-2-2-1
 # d. 
-    <br /><br />    
+    Pemisahan untuk data 1 diperluka untuk memisahkan data terkumpul pada bagian yang sama sehingga diperlukan dua layer untuk tampilan nilai keseluruhan positif di pojok grafik. Pada data 2 akan dilakukan pemisahan data dekat titik 0,0 dengan seluruh data menumpuk dibagian pojok kiri bawah, karena itu dilakukan notasi seperti soal b. Sedangkan pada soal c, dilakukan dengan membuat data terkumpul seperti soal a. Bedanya sebaran data lebih acak. Diperlukan notasi yang sederhana agar proses pengolahan data tidak bertumbukan dengan neuron-neuron yang berhubungan.
+    <br />   
 ## NOMOR 4 : <br /><br />
 # a dan b 
     Suatu fungsi yang dapat mengekstrak informasi dari masing-masing kromosom, bahwa tiga digit pertama adalah posisi x, tiga digit kedua adalah posisi y, dan satu digit terakhir adalah kelasnya (0 atau 1) adalah sebagai berikut
