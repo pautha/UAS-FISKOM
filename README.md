@@ -78,7 +78,8 @@ c.Untuk benda jatuh bebas tanpa gesekan udara persamaan yang diperoleh menjadi <
 \ddot{y} - \left(\frac{1}{l^2} \right) (\dot{x}^2 + \dot{y}^2) x + \left( \frac{g}{l^2}\right) xy = -g
 \end{equation}
 
-ketika benda bergerak tanpa gesekan udara, artinya udara tidak dianggap sebagai fluida sehingga tidak ada nilai viskositas. Maka dari persamaan sebelumnya (jawaban 1a), nilai suku keduanya dihilangkan, karena suku kedua memiliki makna adanya gesekan udara. Sehingga jika tidak ada gesekan udara nilai $\eta = 0$ <bt />
+ketika benda bergerak tanpa gesekan udara, artinya udara tidak dianggap sebagai fluida sehingga tidak ada nilai viskositas. Maka dari persamaan sebelumnya (jawaban 1a), nilai suku keduanya dihilangkan, karena suku kedua memiliki makna adanya gesekan udara. Sehingga jika tidak ada gesekan udara nilai $\eta = 0$ 
+<bt />
 <br />
 d. Untuk bandul dengan simpangan kecil dan tanpa gaya gesek udara, bentuk persamaannya dengan nilai $sin \theta \approx \theta$
 dengan menggunakan hubungan sudut dengan jari-jari, diperoleh persamaan sebagai berikut <br />
@@ -91,21 +92,55 @@ s=r\theta
 \begin{equation}
 \theta = \frac {\sqrt{x^2+y^2}}{l}
 \end{equation}
-sehingga persamaan bandulnya menjadi
+sehingga persamaan bandulnya pada sumbu x menjadi
 \begin{equation}
 \sum F_x = m a_x
 \end{equation}
 \begin{equation}
-T sin \theta = m a_x
+-T sin \theta = m a_x
 \end{equation}
 \begin{equation}
-T \theta = m a_x
+-T \theta = m a_x
 \end{equation}
 \begin{equation}
-(\frac {mgy}{l}- \frac{m v^2}{l})(\frac {\sqrt{x^2+y^2}}{l}) = ma_x
+(-\frac {mgy}{l}+\frac{m v^2}{l})(\frac {\sqrt{x^2+y^2}}{l}) = ma_x
 \end{equation}
 \begin{equation}
+a_x - \frac {gy}{l} \sqrt{x^2+y^2} + \frac {v^2}{l^2}\sqrt{x^2+y^2} = 0
 \end{equation}
+
+sedangkan untuk persamaan sumbu y adalah 
+\begin{equation}
+\sum F_y = m a_y
+\end{equation}
+\begin{equation}
+T cos \theta - mg = m a_y
+\end{equation}
+\begin{equation}
+T (1-\frac {\theta^2}{2})- mg = m a_y
+\end{equation}
+\begin{equation}
+(\frac {mgy}{l}-\frac{m v^2}{l})(1-\frac {\theta^2}{2}) - mg = ma_y
+\end{equation}
+\begin{equation}
+\frac {gy}{l} - \frac {gy\theta^2}{2l} - \frac{v^2}{l}+\frac{v^2\theta^2}{2l} - g = a_y
+\end{equation}
+\begin{equation}
+a_y + (gy - v^2)\frac {\theta^2}{2l} + (v^2 - gy)\frac{1}{l}=-g
+\end{equation}
+\begin{equation}
+a_y + (gy - v^2)\frac {x^2+y^2}{2l^3} + (v^2 - gy)\frac{1}{l}=-g
+\end{equation}
+
+Untuk makna dari suku-suku dari persaman diferensial non linear pada arah sumbu x maupun sumbu y pada persoalan sistem bandul dengan sudut kecil dan gesekan udara diabaikan  tersebut  merupakan kumpulan percepatan yang mempengaruhi gerak bandul pada arah x dan arah y. Aproksimasi sudut kecil digunakan dalam menyelesaikan persamaan diferensial non linear. Sehingga makna dari setiap suku percepatan di persamaan untuk komponen x tersebut yaitu: <br />
+suku pertama: merupakan percepatan dari gerak bandul arah x <br />
+suku kedua: merupakan percepatan dari gaya pemulih  sistem bandul <br />
+suku ketiga: merupakan percepatan dari gaya sentripetal <br />
+Adapun untuk makna dari setiap suku percepatan di persamaan untuk komponen y tersebut yaitu: <br/>
+Suku pertama : merupakan percepatan dari gerak bandul arah y <br />
+Suku kedua dan ketiga : merupakan percepatan dari kombinasi gaya pemulih dan gaya sentripetal sistem bandul. <br />
+Adapun jika persamaan komponen sumbu y ruas kanannya dipindah ke kiri sehingga ruas kanan bernilai nol. Sehingga untuk komponen sumbu y terdapat suku keempat dan suku keempat tersebut merupakan percepatan gravitasi yang arahnya ke arah negative sumbu y. 
+ 
 
 <br /><br />
 NOMOR 2 : <br /2><br />
@@ -222,3 +257,7 @@ setelah diselesaikan kedua persamaan didapat, maka diperoleh
 \begin{equation}
 T = mg cos \theta + mr \dot\theta^2
 \end{equation}
+
+c. Solusi numerik dengan algoritma Euler untuk sembarang nilai adalah 
+<br /><br />
+d. 
